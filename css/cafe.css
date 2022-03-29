@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Damion&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
 html {
   scroll-behavior: smooth;
+  overflow-x:hidden;
 }
 body {
   overflow-x: hidden;
@@ -790,19 +791,19 @@ button.more-button {
     padding-top: 130px;
   }
   .section-header-container {
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
     align-items: flex-start;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
     flex-direction: column;
   }
   .contact {
     margin-left: 2rem;
   }
+  html {
+  scroll-behavior: smooth;
+  overflow-x:hidden;
+}
+body {
+  overflow-x: hidden;
+}
 }
 
 @media screen and (max-width: 650px) {
@@ -828,6 +829,13 @@ button.more-button {
   .contact {
     margin-left: 2rem;
   }
+  html {
+  scroll-behavior: smooth;
+  overflow-x:hidden;
+}
+body {
+  overflow-x: hidden;
+}
 }
 
 @media screen and (max-width: 550px) {
@@ -840,6 +848,13 @@ button.more-button {
   .contact {
     margin-left: 2rem;
   }
+  html {
+  scroll-behavior: smooth;
+  overflow-x:hidden;
+}
+body {
+  overflow-x: hidden;
+}
 }
 
 @media screen and (max-width: 450px) {
@@ -849,6 +864,13 @@ button.more-button {
   .contact {
     margin-left: 2rem;
   }
+  html {
+  scroll-behavior: smooth;
+  overflow-x:hidden;
+}
+body {
+  overflow-x: hidden;
+}
 }
 
 @media screen and (max-width: 370px) {
@@ -858,4 +880,11 @@ button.more-button {
   .contact {
     margin-left: 2rem;
   }
+  html {
+  scroll-behavior: smooth;
+  overflow-x:hidden;
+}
+body {
+  overflow-x: hidden;
+}
 }
